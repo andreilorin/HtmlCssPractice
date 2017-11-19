@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Css Grid</title>
+
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em; */
+            grid-gap: 1em;
+        }
+        
+        .wrapper > div {
+            background: #eee;
+            padding: 1em;
+        }
+
+        .wrapper > div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Blanditiis officia tempore id cumque voluptate necessitatibus sit,
+            commodi laboriosam modi expedita quisquam sapiente voluptas ex, 
+            itaque a magni facilis minus? Praesentium, minus. Ipsum facere in 
+            aspernatur dolorem nobis consectetur ex reiciendis. Voluptatibus iusto
+            obcaecati omnis corporis consequuntur consequatur animi nostrum culpa 
+            molestiae amet, sint, deserunt architecto deleniti, inventore voluptatem
+            pariatur aliquid fugiat atque quod cum unde reiciendis optio! Illo,
+            ad facilis ut dicta omnis id animi dolores nemo a earum cum.
+        </div>
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Facilis enim sequi sint officia magnam! Qui, necessitatibus deserunt.
+            Vitae, placeat sed dignissimos doloremque libero consequatur earum ullam 
+            repellendus laboriosam sint unde, qui facilis explicabo. Illum alias 
+            libero obcaecati amet explicabo porro dolorem eum natus harum omnis 
+            beatae magnam, neque voluptas ut.
+        </div>
+        <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis officia tempore id cumque voluptate necessitatibus sit,
+                commodi laboriosam modi expedita quisquam sapiente voluptas ex, 
+                itaque a magni facilis minus? Praesentium, minus. Ipsum facere in 
+                aspernatur dolorem nobis consectetur ex reiciendis. Voluptatibus iusto
+                obcaecati omnis corporis consequuntur consequatur animi nostrum culpa 
+                molestiae amet, sint, deserunt architecto deleniti, inventore voluptatem
+                pariatur aliquid fugiat atque quod cum unde reiciendis optio! Illo,
+                ad facilis ut dicta omnis id animi dolores nemo a earum cum.
+            </div>
+            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Facilis enim sequi sint officia magnam! Qui, necessitatibus deserunt.
+                Vitae, placeat sed dignissimos doloremque libero consequatur earum ullam 
+                repellendus laboriosam sint unde, qui facilis explicabo. Illum alias 
+                libero obcaecati amet explicabo porro dolorem eum natus harum omnis 
+                beatae magnam, neque voluptas ut.
+            </div>
+    </div>
+</body>
+</html>
